@@ -10,13 +10,14 @@ provider-name="ayaankhan07">
 
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
-  <dir>
+
+  <provides>video</provides>
+</extension>
+  <extension point="xbmc.addon.repository" name="homeaddon Repository">  <dir>
             <info compressed="false">https://raw.githubusercontent.com/homeaddon/homeaddon.github.io/main/zips/addon.xml</info>
             <checksum>https://raw.githubusercontent.com/homeaddon/homeaddon.github.io/main/zips/addon.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/homeaddon/homeaddon.github.io/main/repo/zips/</datadir>
-  </dir>
-  <provides>video</provides>
-</extension>
+  </dir></extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en_GB">Video Addon Scraper For A Local Website</summary>
   <description lang="en_GB">An video plugin for Kodi mediacenter.</description>
