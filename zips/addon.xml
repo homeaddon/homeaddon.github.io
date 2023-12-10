@@ -3,12 +3,7 @@
 version="3.0.1"
 name="Home"
 provider-name="homeaddon">
-    <extension point="xbmc.addon.repository" name="homeaddon Repository">  <dir>
-            <info compressed="false">https://raw.githubusercontent.com/homeaddon/homeaddon.github.io/main/zips/addon.xml</info>
-            <checksum>https://raw.githubusercontent.com/homeaddon/homeaddon.github.io/main/zips/addon.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/homeaddon/homeaddon.github.io/main/repo/zips/</datadir>
-  </dir>
-    </extension>
+
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
 
