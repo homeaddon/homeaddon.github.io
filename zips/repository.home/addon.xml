@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.home" name="homeaddon Repository" version="3.0.1" provider-name="homeaddon">
+    <extension point="xbmc.addon.repository" name="Homeaddon Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/homeaddon/homeaddon.github.io/main/zips/addon.xml</info>
+            <checksum>https://raw.githubusercontent.com/homeaddon/homeaddon.github.io/main/zips/addon.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/homeaddon/homeaddon.github.io/main/zips/</datadir>
+        </dir>
+	<dir minversion="19.9.1" maxversion="20.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/homeaddon/homeaddon.github.io/main/nexus/addon.xml</info>
+            <checksum>https://raw.githubusercontent.com/homeaddon/homeaddon.github.io/main/nexus/addon.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/homeaddon/homeaddon.github.io/main/nexus/zips</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>homeaddon Repository</summary>
+        <description>repo for home addon</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
