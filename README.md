@@ -1,4 +1,4 @@
-# jurialmunkey Alpha Repository
+# homeaddon Repository
 
 Kodi File Manager Source:
-https://jurialmunkey.github.io/repository.jurialmunkey/
+https://homeaddon.github.io
